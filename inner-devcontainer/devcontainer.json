@@ -1,0 +1,6 @@
+{
+  "name": "codeartifact-pip-inner",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}

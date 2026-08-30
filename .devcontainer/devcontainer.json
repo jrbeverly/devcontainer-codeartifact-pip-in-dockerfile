@@ -1,0 +1,14 @@
+{
+  "name": "codeartifact-pip-outer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "installDockerBuildx": true
+    },
+    "ghcr.io/devcontainers/features/terraform:1": {},
+    "ghcr.io/devcontainers/features/aws-cli:1": {}
+  },
+  "remoteUser": "vscode"
+}

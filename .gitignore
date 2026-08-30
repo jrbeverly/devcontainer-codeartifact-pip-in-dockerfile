@@ -1,0 +1,7 @@
+package/build/
+package/dist/
+package/src/*.egg-info/
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+artifacts/
